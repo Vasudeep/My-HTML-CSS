@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		.z{
+			
+			border: hidden;
+		}
+		#wa{
+			height: 100px;
+			width: 100px;
+			background-color: wheat;
+			background-image: url("https://img.icons8.com/fluent-systems-filled/2x/rook.png");
+			
+			background-size: 100px;
+			position: absolute;
+			left: 350px;
+			top: 0px;
+
+		}
+		#sa{
+			height: 100px;
+			width: 100px;
+			background-color: sienna;
+			background-image: url("https://img.icons8.com/fluent-systems-filled/2x/knight.png");
+			background-size: 100px;
+			position: absolute;
+			left: 450px;
+			top: 0px;
+		}
+		#wb{
+			height: 100px;
+			width: 100px;
+			background-color: wheat;
+			background-image: url("https://img.icons8.com/fluent-systems-filled/2x/bishop.png");
+			background-size: 100px;
+			position: absolute;
+			left: 550px;
+			top: 0px;
+		}
+		#sb{
+			height: 100px;
+			width: 100px;
+			background-color: sienna;
+			background-image: url("https://img.icons8.com/fluent-systems-filled/2x/king.png");
+			background-size: 100px;
+			position: absolute;
+			left: 650px;
+			top: 0px;
+		}
+		#wc{
+			height: 100px;
+			width: 100px;
+			background-color: wheat;
+			background-image: url("https://img.icons8.com/fluent-systems-filled/2x/queen.png");
+			background-size: 100px;
+			position: absolute;
+			left: 750px;
+			top: 0px;
+		}
+		#sc{
+			height: 100px;
+			width: 100px;
+			background-color: sienna;
+			background-image: url("https://img.icons8.com/fluent-systems-filled/2x/bishop.png");
+			background-size: 100px;
+			position: absolute;
+			left: 850px;
+			top: 0px;
+		}
+		#wd{
+			height: 100px;
+			width: 100px;
+			background-color: wheat;
+			background-image: url("https://img.icons8.com/fluent-systems-filled/2x/knight.png");
+			background-size: 100px;
+			position: absolute;
+			left: 950px;
+			top: 0px;
+		}
+		#sd{
+			height: 100px;
+			width: 100px;
+			background-color: sienna;
+			background-image: url("https://img.icons8.com/fluent-systems-filled/2x/rook.png");
+			background-size: 100px;
+			position: absolute;
+			left: 1050px;
+			top: 0px;
+		}
+		#se{
+			height: 100px;
+			width: 100px;
+			background-color: sienna;
+			background-image: url("https://img.icons8.com/fluent-systems-filled/2x/pawn.png");
+			background-size: 100px;
+			position: absolute;
+			left: 350px;
+			top: 100px;
+
+		}
+		#we{
+			height: 100px;
+			width: 100px;
+			background-color: wheat;
+			background-image: url("https://img.icons8.com/fluent-systems-filled/2x/pawn.png");
+			background-size: 100px;
+			position: absolute;
+			left: 450px;
+			top: 100px;
+		}
+		#sf{
+			height: 100px;
+			width: 100px;
+			background-color: sienna;
+			background-image: url("https://img.icons8.com/fluent-systems-filled/2x/pawn.png");
+			background-size: 100px;
+			position: absolute;
+			left: 550px;
+			top: 100px;
+		}
+		#wf{
+			height: 100px;
+			width: 100px;
+			background-color: wheat;
+			background-image: url("https://img.icons8.com/fluent-systems-filled/2x/pawn.png");
+			background-size: 100px;
+			position: absolute;
+			left: 650px;
+			top: 100px;
+		}
+		#sg{
+			height: 100px;
+			width: 100px;
+			background-color: sienna;
+			background-image: url("https://img.icons8.com/fluent-systems-filled/2x/pawn.png");
+			background-size: 100px;
+			position: absolute;
+			left: 750px;
+			top: 100px;
+		}
+		#wg{
+			height: 100px;
+			width: 100px;
+			background-color: wheat;
+			background-image: url("https://img.icons8.com/fluent-systems-filled/2x/pawn.png");
+			background-size: 100px;
+			position: absolute;
+			left: 850px;
+			top: 100px;
+		}
+		#sh{
+			height: 100px;
+			width: 100px;
+			background-color: sienna;
+			background-image: url("https://img.icons8.com/fluent-systems-filled/2x/pawn.png");
+			background-size: 100px;
+			position: absolute;
+			left: 950px;
+			top: 100px;
+		}
+		#wh{
+			height: 100px;
+			width: 100px;
+			background-color: wheat;
+			background-image: url("https://img.icons8.com/fluent-systems-filled/2x/pawn.png");
+			background-size: 100px;
+			position: absolute;
+			left: 1050px;
+			top: 100px;
+		}
+		#wi{
+			height: 100px;
+			width: 100px;
+			background-color: wheat;
+			position: absolute;
+			left: 350px;
+			top: 200px;
+		}
+		#si{
+			height: 100px;
+			width: 100px;
+			background-color: sienna;
+			position: absolute;
+			left: 450px;
+			top: 200px;
+		}
+		#wj{
+			height: 100px;
+			width: 100px;
+			background-color: wheat;
+			position: absolute;
+			left: 550px;
+			top: 200px;
+		}
+		#sj{
+			height: 100px;
+			width: 100px;
+			background-color: sienna;
+			position: absolute;
+			left: 650px;
+			top: 200px;
+		}
+		#wk{
+			height: 100px;
+			width: 100px;
+			background-color: wheat;
+			position: absolute;
+			left: 750px;
+			top: 200px;
+		}
+		#sk{
+			height: 100px;
+			width: 100px;
+			background-color: sienna;
+			position: absolute;
+			left: 850px;
+			top: 200px;
+		}
+		#wl{
+			height: 100px;
+			width: 100px;
+			background-color: wheat;
+			position: absolute;
+			left: 950px;
+			top: 200px;
+		}
+		#sl{
+			height: 100px;
+			width: 100px;
+			background-color: sienna;
+			position: absolute;
+			left: 1050px;
+			top: 200px;
+		}
+		#sm{
+			height: 100px;
+			width: 100px;
+			background-color: sienna;
+			position: absolute;
+			left: 350px;
+			top: 300px;
+		}
+		#wm{
+			height: 100px;
+			width: 100px;
+			background-color: wheat;
+			position: absolute;
+			left: 450px;
+			top: 300px;
+		}
+		#sn{
+			height: 100px;
+			width: 100px;
+			background-color: sienna;
+			position: absolute;
+			left: 550px;
+			top: 300px;
+		}
+		#wn{
+			height: 100px;
+			width: 100px;
+			background-color: wheat;
+			position: absolute;
+			left: 650px;
+			top: 300px;
+		}
+		#so{
+			height: 100px;
+			width: 100px;
+			background-color: sienna;
+			position: absolute;
+			left: 750px;
+			top: 300px;
+		}
+		#wo{
+			height: 100px;
+			width: 100px;
+			background-color: wheat;
+			position: absolute;
+			left: 850px;
+			top: 300px;
+		}
+		#sp{
+			height: 100px;
+			width: 100px;
+			background-color: sienna;
+			position: absolute;
+			left: 950px;
+			top: 300px;
+		}
+		#wp{
+			height: 100px;
+			width: 100px;
+			background-color: wheat;
+			position: absolute;
+			left: 1050px;
+			top: 300px;
+		}
+		#wq{
+			height: 100px;
+			width: 100px;
+			background-color: wheat;
+			position: absolute;
+			left: 350px;
+			top: 400px;
+		}
+		#sq{
+			height: 100px;
+			width: 100px;
+			background-color: sienna;
+			position: absolute;
+			left: 450px;
+			top: 400px;
+		}
+		#wr{
+			height: 100px;
+			width: 100px;
+			background-color: wheat;
+			position: absolute;
+			left: 550px;
+			top: 400px;
+		}
+		#sr{
+			height: 100px;
+			width: 100px;
+			background-color: sienna;
+			position: absolute;
+			left: 650px;
+			top: 400px;
+		}
+		#ws{
+			height: 100px;
+			width: 100px;
+			background-color: wheat;
+			position: absolute;
+			left: 750px;
+			top: 400px;
+		}
+		#ss{
+			height: 100px;
+			width: 100px;
+			background-color: sienna;
+			position: absolute;
+			left: 850px;
+			top: 400px;
+		}
+		#wt{
+			height: 100px;
+			width: 100px;
+			background-color: wheat;
+			position: absolute;
+			left: 950px;
+			top: 400px;
+		}
+		#st{
+			height: 100px;
+			width: 100px;
+			background-color: sienna;
+			position: absolute;
+			left: 1050px;
+			top: 400px;
+		}
+		#su{
+			height: 100px;
+			width: 100px;
+			background-color: sienna;
+			position: absolute;
+			left: 350px;
+			top: 500px;
+		}
+		#wu{
+			height: 100px;
+			width: 100px;
+			background-color: wheat;
+			position: absolute;
+			left: 450px;
+			top: 500px;
+		}
+		#sv{
+			height: 100px;
+			width: 100px;
+			background-color: sienna;
+			position: absolute;
+			left: 550px;
+			top: 500px;
+		}
+		#wv{
+			height: 100px;
+			width: 100px;
+			background-color: wheat;
+			position: absolute;
+			left: 650px;
+			top: 500px;
+		}
+		#sw{
+			height: 100px;
+			width: 100px;
+			background-color: sienna;
+			position: absolute;
+			left: 750px;
+			top: 500px;
+		}
+		#ww{
+			height: 100px;
+			width: 100px;
+			background-color: wheat;
+			position: absolute;
+			left: 850px;
+			top: 500px;
+		}
+		#sx{
+			height: 100px;
+			width: 100px;
+			background-color: sienna;
+			position: absolute;
+			left: 950px;
+			top: 500px;
+		}
+		#wx{
+			height: 100px;
+			width: 100px;
+			background-color: wheat;
+			position: absolute;
+			left: 1050px;
+			top: 500px;
+		}
+		#wwa{
+			height: 100px;
+			width: 100px;
+			background-color: wheat;
+			background-image: url("https://img.icons8.com/fluent-systems-regular/2x/pawn.png");
+			
+			background-size: 100px;
+			position: absolute;
+			left: 350px;
+			top: 600px;
+
+		}
+		#ssa{
+			height: 100px;
+			width: 100px;
+			background-color: sienna;
+			background-image: url("https://img.icons8.com/fluent-systems-regular/2x/pawn.png");
+			background-size: 100px;
+			position: absolute;
+			left: 450px;
+			top: 600px;
+		}
+		#wwb{
+			height: 100px;
+			width: 100px;
+			background-color: wheat;
+			background-image: url("https://img.icons8.com/fluent-systems-regular/2x/pawn.png");
+			background-size: 100px;
+			position: absolute;
+			left: 550px;
+			top: 600px;
+		}
+		#ssb{
+			height: 100px;
+			width: 100px;
+			background-color: sienna;
+			background-image: url("https://img.icons8.com/fluent-systems-regular/2x/pawn.png");
+			background-size: 100px;
+			position: absolute;
+			left: 650px;
+			top: 600px;
+		}
+		#wwc{
+			height: 100px;
+			width: 100px;
+			background-color: wheat;
+			background-image: url("https://img.icons8.com/fluent-systems-regular/2x/pawn.png");
+			background-size: 100px;
+			position: absolute;
+			left: 750px;
+			top: 600px;
+		}
+		#ssc{
+			height: 100px;
+			width: 100px;
+			background-color: sienna;
+			background-image: url("https://img.icons8.com/fluent-systems-regular/2x/pawn.png");
+			background-size: 100px;
+			position: absolute;
+			left: 850px;
+			top: 600px;
+		}
+		#wwd{
+			height: 100px;
+			width: 100px;
+			background-color: wheat;
+			background-image: url("https://img.icons8.com/fluent-systems-regular/2x/pawn.png");
+			background-size: 100px;
+			position: absolute;
+			left: 950px;
+			top: 600px;
+		}
+		#ssd{
+			height: 100px;
+			width: 100px;
+			background-color: sienna;
+			background-image: url("https://img.icons8.com/fluent-systems-regular/2x/pawn.png");
+			background-size: 100px;
+			position: absolute;
+			left: 1050px;
+			top: 600px;
+		}
+		#sse{
+			height: 100px;
+			width: 100px;
+			background-color: sienna;
+			background-image: url("https://img.icons8.com/fluent-systems-regular/2x/rook.png");
+			background-size: 100px;
+			position: absolute;
+			left: 350px;
+			top: 700px;
+
+		}
+		#wwe{
+			height: 100px;
+			width: 100px;
+			background-color: wheat;
+			background-image: url("https://img.icons8.com/fluent-systems-regular/2x/knight.png");
+			background-size: 100px;
+			position: absolute;
+			left: 450px;
+			top: 700px;
+		}
+		#ssf{
+			height: 100px;
+			width: 100px;
+			background-color: sienna;
+			background-image: url("https://img.icons8.com/fluent-systems-regular/2x/bishop.png");
+			background-size: 100px;
+			position: absolute;
+			left: 550px;
+			top: 700px;
+		}
+		#wwf{
+			height: 100px;
+			width: 100px;
+			background-color: wheat;
+			background-image: url("https://img.icons8.com/fluent-systems-regular/2x/king.png");
+			background-size: 100px;
+			position: absolute;
+			left: 650px;
+			top: 700px;
+		}
+		#ssg{
+			height: 100px;
+			width: 100px;
+			background-color: sienna;
+			background-image: url("https://img.icons8.com/fluent-systems-regular/2x/queen.png");
+			background-size: 100px;
+			position: absolute;
+			left: 750px;
+			top: 700px;
+		}
+		#wwg{
+			height: 100px;
+			width: 100px;
+			background-color: wheat;
+			background-image: url("https://img.icons8.com/fluent-systems-regular/2x/bishop.png");
+			background-size: 100px;
+			position: absolute;
+			left: 850px;
+			top: 700px;
+		}
+		#ssh{
+			height: 100px;
+			width: 100px;
+			background-color: sienna;
+			background-image: url("https://img.icons8.com/fluent-systems-regular/2x/knight.png");
+			background-size: 100px;
+			position: absolute;
+			left: 950px;
+			top: 700px;
+		}
+		#wwh{
+			height: 100px;
+			width: 100px;
+			background-color: wheat;
+			background-image: url("https://img.icons8.com/fluent-systems-regular/2x/rook.png");
+			background-size: 100px;
+			position: absolute;
+			left: 1050px;
+			top: 700px;
+		}
+			
+		
+		
+	</style>
+	<title></title>
+</head>
+<body bgcolor="black">
+	<div class="z">
+		<div id="wa"></div>
+		<div id="sa"></div>
+		<div id="wb"></div>
+		<div id="sb"></div>
+		<div id="wc"></div>
+		<div id="sc"></div>
+		<div id="wd"></div>
+		<div id="sd"></div>
+
+		<div id="we"></div>
+		<div id="se"></div>
+		<div id="wf"></div>
+		<div id="sf"></div>
+		<div id="wg"></div>
+		<div id="sg"></div>
+		<div id="wh"></div>
+		<div id="sh"></div>
+
+		<div id="wi"></div>
+		<div id="si"></div>
+		<div id="wj"></div>
+		<div id="sj"></div>
+		<div id="wk"></div>
+		<div id="sk"></div>
+		<div id="wl"></div>
+		<div id="sl"></div>
+
+		<div id="wm"></div>
+		<div id="sm"></div>
+		<div id="wn"></div>
+		<div id="sn"></div>
+		<div id="wo"></div>
+		<div id="so"></div>
+		<div id="wp"></div>
+		<div id="sp"></div>
+
+		<div id="wq"></div>
+		<div id="sq"></div>
+		<div id="wr"></div>
+		<div id="sr"></div>
+		<div id="ws"></div>
+		<div id="ss"></div>
+		<div id="wt"></div>
+		<div id="st"></div>
+
+		<div id="wu"></div>
+		<div id="su"></div>
+		<div id="wv"></div>
+		<div id="sv"></div>
+		<div id="ww"></div>
+		<div id="sw"></div>
+		<div id="wx"></div>
+		<div id="sx"></div>
+
+		<div id="wwa"></div>
+		<div id="ssa"></div>
+		<div id="wwb"></div>
+		<div id="ssb"></div>
+		<div id="wwc"></div>
+		<div id="ssc"></div>
+		<div id="wwd"></div>
+		<div id="ssd"></div>
+
+		<div id="wwe"></div>
+		<div id="sse"></div>
+		<div id="wwf"></div>
+		<div id="ssf"></div>
+		<div id="wwg"></div>
+		<div id="ssg"></div>
+		<div id="wwh"></div>
+		<div id="ssh"></div>
+
+
+	</div>
+
+</body>
+</html>

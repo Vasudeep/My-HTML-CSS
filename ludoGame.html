@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		.z{
+			background-color: rgb(150,180,50);
+		}
+		.a{
+			height: 610px;
+			width: 620px;
+			background-color: white;
+			border: groove;
+			border-width: 15px;
+			position: absolute;
+			top: 100px;
+			left: 500px;
+
+		}
+		#aa{
+			height: 200px;
+			width: 201px;
+			background-color: red;
+			border: solid;
+			position: absolute;
+			left: 30px;
+			top: 30px;
+			float: left;
+		}
+		#ab{
+			height: 200px;
+			width: 200px;
+			background-color: blue;
+			border: solid;
+			position: absolute;
+			left: 380px;
+			top: 30px;
+			float: right;
+		}
+		#ac{
+			height: 200px;
+			width: 201px;
+			background-color: green;
+			border: solid;
+			position: absolute;
+			left: 30px;
+			top: 380px;
+			float: left;
+		}
+		#ad{
+			height: 201px;
+			width: 200px;
+			background-color: yellow;
+			border: solid;
+			position: absolute;
+			left: 380px;
+			top: 379px;
+			float: left;
+		}
+		#aaa{
+			height: 150px;
+			width: 150px;
+			background-color: white;
+			border: solid;
+			position: absolute;
+			left: 25px;
+			top: 25px;
+		}
+		#aab{
+			height: 50px;
+			width: 50px;
+			background-color: red;
+			border: solid;
+			border-radius: 30px;
+			position: absolute;
+			left: 5px;
+			top: 5px;
+		}
+		#aac{
+			height: 50px;
+			width: 50px;
+			background-color: red;
+			border: solid;
+			border-radius: 30px;
+			position: absolute;
+			left: 90px;
+			top: 5px;
+		}
+		#aad{
+			height: 50px;
+			width: 50px;
+			background-color: red;
+			border: solid;
+			border-radius: 30px;
+			position: absolute;
+			left: 5px;
+			top: 90px;
+		}
+		#aae{
+			height: 50px;
+			width: 50px;
+			background-color: red;
+			border: solid;
+			border-radius: 30px;
+			position: absolute;
+			left: 90px;
+			top: 90px;
+		}
+		#aba{
+			height: 50px;
+			width: 50px;
+			background-color: blue;
+			border: solid;
+			border-radius: 30px;
+			position: absolute;
+			left: 5px;
+			top: 5px;
+		}
+		#abb{
+			height: 50px;
+			width: 50px;
+			background-color: blue;
+			border: solid;
+			border-radius: 30px;
+			position: absolute;
+			left: 90px;
+			top: 5px;
+		}
+		#abc{
+			height: 50px;
+			width: 50px;
+			background-color: blue;
+			border: solid;
+			border-radius: 30px;
+			position: absolute;
+			left: 5px;
+			top: 90px;
+		}
+		#abd{
+			height: 50px;
+			width: 50px;
+			background-color: blue;
+			border: solid;
+			border-radius: 30px;
+			position: absolute;
+			left: 90px;
+			top: 90px;
+		}
+		#aca{
+			height: 50px;
+			width: 50px;
+			background-color: green;
+			border: solid;
+			border-radius: 30px;
+			position: absolute;
+			left: 5px;
+			top: 5px;
+		}
+		#acb{
+			height: 50px;
+			width: 50px;
+			background-color: green;
+			border: solid;
+			border-radius: 30px;
+			position: absolute;
+			left: 90px;
+			top: 5px;
+		}
+		#acc{
+			height: 50px;
+			width: 50px;
+			background-color: green;
+			border: solid;
+			border-radius: 30px;
+			position: absolute;
+			left: 5px;
+			top: 90px;
+		}
+		#acd{
+			height: 50px;
+			width: 50px;
+			background-color: green;
+			border: solid;
+			border-radius: 30px;
+			position: absolute;
+			left: 90px;
+			top: 90px;
+		}
+		#ada{
+			height: 50px;
+			width: 50px;
+			background-color: yellow;
+			border: solid;
+			border-radius: 30px;
+			position: absolute;
+			left: 5px;
+			top: 5px;
+		}
+		#adb{
+			height: 50px;
+			width: 50px;
+			background-color: yellow;
+			border: solid;
+			border-radius: 30px;
+			position: absolute;
+			left: 90px;
+			top: 5px;
+		}
+		#adc{
+			height: 50px;
+			width: 50px;
+			background-color: yellow;
+			border: solid;
+			border-radius: 30px;
+			position: absolute;
+			left: 5px;
+			top: 90px;
+		}
+		#add{
+			height: 50px;
+			width: 50px;
+			background-color: yellow;
+			border: solid;
+			border-radius: 30px;
+			position: absolute;
+			left: 90px;
+			top: 90px;
+		}
+		
+		#center{
+			height: 145px;
+			width: 145px;
+			background-color: white;
+			border: solid;
+			position: absolute;
+			left: 232px;
+			top: 232px;
+		}
+		#ca{
+			width: 0px;
+			border-bottom: 75px solid green;
+			border-left: 75px solid red;
+			border-top: 75px solid blue;
+			border-right: 75px solid yellow;	
+		}
+		#p{
+			height: 35px;
+			width: 46px;
+			background-color: white;
+			border: solid;
+			position: absolute;
+			left: 235px;
+			top: 30px;
+		}
+		#q{
+			height: 35px;
+			width: 46px;
+			background-color: white;
+			border: solid;
+			position: absolute;
+			left: 285px;
+			top: 30px;
+		}
+		#r{
+			height: 35px;
+			width: 46px;
+			background-color: white;
+			border: solid;
+			position: absolute;
+			left: 335px;
+			top: 30px;
+
+		}
+		#s{
+			height: 35px;
+			width: 46px;
+			background-color: blue;
+			border: solid;
+			position: absolute;
+			left: 335px;
+			top: 68px;
+
+		}
+		#t{
+			height: 35px;
+			width: 46px;
+			background-color: blue;
+			border: solid;
+			position: absolute;
+			left: 285px;
+			top: 68px;
+		}
+		#u{
+			height: 35px;
+			width: 45px;
+			background-color: red;
+			border: solid;
+			position: absolute;
+			left: 235px;
+			top: 68px;
+		}
+		#v{
+			height: 35px;
+			width: 45px;
+			background-color: white;
+			border: solid;
+			position: absolute;
+			left: 235px;
+			top: 100px;
+		}
+		#w{
+			height: 35px;
+			width: 46px;
+			background-color: blue;
+			border: solid;
+			position: absolute;
+			left: 285px;
+			top: 100px;
+		}
+		#x{
+			height: 35px;
+			width: 45px;
+			background-color: white;
+			border: solid;
+			position: absolute;
+			left: 335px;
+			top: 100px;
+		}
+		#y{
+			height: 35px;
+			width: 45px;
+			background-color: white;
+			border: solid;
+			position: absolute;
+			left: 235px;
+			top: 137px;
+		}
+		#l{
+			height: 35px;
+			width: 46px;
+			background-color: blue;
+			border: solid;
+			position: absolute;
+			left: 285px;
+			top: 137px;
+		}
+		#e{
+			height: 35px;
+			width: 45px;
+			background-color: white;
+			border: solid;
+			position: absolute;
+			left: 335px;
+			top: 137px;
+		}
+		#f{
+			height: 35px;
+			width: 45px;
+			background-color: white;
+			border: solid;
+			position: absolute;
+			left: 235px;
+			top: 170px;
+		}
+		#g{
+			height: 35px;
+			width: 46px;
+			background-color: blue;
+			border: solid;
+			position: absolute;
+			left: 285px;
+			top: 170px;
+		}
+		#h{
+			height: 35px;
+			width: 45px;
+			background-color: white;
+			border: solid;
+			position: absolute;
+			left: 335px;
+			top: 170px;
+		}
+		#i{
+			height: 35px;
+			width: 45px;
+			background-color: white;
+			border: solid;
+			position: absolute;
+			left: 235px;
+			top: 200px;
+		}
+		#j{
+			height: 35px;
+			width: 46px;
+			background-color: blue;
+			border: solid;
+			position: absolute;
+			left: 285px;
+			top: 200px;
+		}
+		#k{
+			height: 35px;
+			width: 45px;
+			background-color: white;
+			border: solid;
+			position: absolute;
+			left: 335px;
+			top: 200px;
+		}
+		#ra{
+			height: 45px;
+			width: 36px;
+			background-color: white;
+			border-style: solid;
+			position: absolute;
+			left: 30px;
+			top: 232px;
+		}
+		#rb{
+			height: 45px;
+			width: 36px;
+			background-color: red;
+			border-style: solid;
+			position: absolute;
+			left: 64px;
+			top: 232px;
+		}
+		#rc{
+			height: 45px;
+			width: 36px;
+			background-color: white;
+			border-style: solid;
+			position: absolute;
+			left: 96px;
+			top: 232px;
+		}
+		#rd{
+			height: 45px;
+			width: 36px;
+			background-color: white;
+			border-style: solid;
+			position: absolute;
+			left: 130px;
+			top: 232px;
+		}
+		#re{
+			height: 45px;
+			width: 36px;
+			background-color: white;
+			border-style: solid;
+			position: absolute;
+			left: 161px;
+			top: 232px;
+		}
+		#rf{
+			height: 45px;
+			width: 36px;
+			background-color: white;
+			border-style: solid;
+			position: absolute;
+			left: 196px;
+			top: 232px;
+		}
+		#rg{
+			height: 47px;
+			width: 35px;
+			background-color: white;
+			border-style: solid;
+			position: absolute;
+			left: 30px;
+			top: 280px;
+		}
+		#rh{
+			height: 47px;
+			width: 35px;
+			background-color: red;
+			border-style: solid;
+			position: absolute;
+			left: 64px;
+			top: 280px;
+		}
+		#ri{
+			height: 47px;
+			width: 35px;
+			background-color: red;
+			border-style: solid;
+			position: absolute;
+			left: 96px;
+			top: 280px;
+		}
+		#rj{
+			height: 47px;
+			width: 30px;
+			background-color: red;
+			border-style: solid;
+			position: absolute;
+			left: 130px;
+			top: 280px;
+		}
+		#rk{
+			height: 47px;
+			width: 36px;
+			background-color: red;
+			border-style: solid;
+			position: absolute;
+			left: 161px;
+			top: 280px;
+		}
+		#rl{
+			height: 47px;
+			width: 36px;
+			background-color: red;
+			border-style: solid;
+			position: absolute;
+			left: 196px;
+			top: 280px;
+		}
+		#rm{
+			height: 46px;
+			width: 36px;
+			background-color: white;
+			border-style: solid;
+			position: absolute;
+			left: 30px;
+			top: 331px;
+		}
+		#rn{
+			height: 46px;
+			width: 36px;
+			background-color: green;
+			border-style: solid;
+			position: absolute;
+			left: 64px;
+			top: 331px;
+		}
+		#ro{
+			height: 46px;
+			width: 36px;
+			background-color: white;
+			border-style: solid;
+			position: absolute;
+			left: 96px;
+			top: 331px;
+		}
+		#rp{
+			height: 46px;
+			width: 36px;
+			background-color: white;
+			border-style: solid;
+			position: absolute;
+			left: 130px;
+			top: 331px;
+		}
+		#rq{
+			height: 45px;
+			width: 36px;
+			background-color: white;
+			border-style: solid;
+			position: absolute;
+			left: 161px;
+			top: 331px;
+		}
+		#rr{
+			height: 46px;
+			width: 36px;
+			background-color: white;
+			border-style: solid;
+			position: absolute;
+			left: 196px;
+			top: 331px;
+		}
+		#ya{
+			height: 45px;
+			width: 36px;
+			background-color: white;
+			border-style: solid;
+			position: absolute;
+			left: 380px;
+			top: 233px;
+		}
+		#yb{
+			height: 45px;
+			width: 36px;
+			background-color: yellow;
+			border-style: solid;
+			position: absolute;
+			left: 380px;
+			top: 281px;
+		}
+		#yc{
+			height: 45px;
+			width: 36px;
+			background-color: white;
+			border-style: solid;
+			position: absolute;
+			left: 380px;
+			top: 330px;
+		}
+		#yd{
+			height: 45px;
+			width: 36px;
+			background-color: white;
+			border-style: solid;
+			position: absolute;
+			left: 415px;
+			top: 233px;
+		}
+		#ye{
+			height: 45px;
+			width: 36px;
+			background-color: yellow;
+			border-style: solid;
+			position: absolute;
+			left: 415px;
+			top: 281px;
+		}
+		#yf{
+			height: 45px;
+			width: 36px;
+			background-color: white;
+			border-style: solid;
+			position: absolute;
+			left: 415px;
+			top: 330px;
+		}
+		#yg{
+			height: 45px;
+			width: 36px;
+			background-color: white;
+			border-style: solid;
+			position: absolute;
+			left: 447px;
+			top: 233px;
+		}
+		#yh{
+			height: 45px;
+			width: 36px;
+			background-color: yellow;
+			border-style: solid;
+			position: absolute;
+			left: 447px;
+			top: 281px;
+		}
+		#yi{
+			height: 45px;
+			width: 36px;
+			background-color: white;
+			border-style: solid;
+			position: absolute;
+			left: 447px;
+			top: 330px;
+		}
+		#yj{
+			height: 45px;
+			width: 36px;
+			background-color: white;
+			border-style: solid;
+			position: absolute;
+			left: 480px;
+			top: 233px;
+		}
+		#yk{
+			height: 45px;
+			width: 36px;
+			background-color: yellow;
+			border-style: solid;
+			position: absolute;
+			left: 480px;
+			top: 281px;
+		}
+		#yl{
+			height: 45px;
+			width: 36px;
+			background-color: white;
+			border-style: solid;
+			position: absolute;
+			left: 480px;
+			top: 330px;
+		}
+		#ym{
+			height: 45px;
+			width: 35px;
+			background-color: blue;
+			border-style: solid;
+			position: absolute;
+			left: 515px;
+			top: 233px;
+			z-index: 1;
+		}
+		#yn{
+			height: 45px;
+			width: 35px;
+			background-color: yellow;
+			border-style: solid;
+			position: absolute;
+			left: 515px;
+			top: 281px;
+			z-index: 1;
+		}
+		#yo{
+			height: 45px;
+			width: 35px;
+			background-color: yellow;
+			border-style: solid;
+			position: absolute;
+			left: 515px;
+			top: 330px;
+			z-index: 1;
+		}
+		#yp{
+			height: 45px;
+			width: 35px;
+			background-color: white;
+			border-style: solid;
+			position: absolute;
+			left: 545px;
+			top: 233px;
+		}
+		#yq{
+			height: 45px;
+			width: 35px;
+			background-color: white;
+			border-style: solid;
+			position: absolute;
+			left: 545px;
+			top: 281px;
+		}
+		#yr{
+			height: 45px;
+			width: 35px;
+			background-color: white;
+			border-style: solid;
+			position: absolute;
+			left: 545px;
+			top: 330px;
+		}
+
+		#ga{
+			height: 35px;
+			width: 46px;
+			background-color: white;
+			border: solid;
+			position: absolute;
+			left: 235px;
+			top: 377px;
+		}
+		#gb{
+			height: 35px;
+			width: 46px;
+			background-color: green;
+			border: solid;
+			position: absolute;
+			left: 285px;
+			top: 377px;
+		}
+		#gc{
+			height: 35px;
+			width: 46px;
+			background-color: white;
+			border: solid;
+			position: absolute;
+			left: 335px;
+			top: 377px;
+
+		}
+		#gd{
+			height: 35px;
+			width: 46px;
+			background-color: white;
+			border: solid;
+			position: absolute;
+			left: 335px;
+			top: 412px;
+
+		}
+		#ge{
+			height: 35px;
+			width: 46px;
+			background-color: green;
+			border: solid;
+			position: absolute;
+			left: 285px;
+			top: 412px;
+		}
+		#gf{
+			height: 35px;
+			width: 45px;
+			background-color: white;
+			border: solid;
+			position: absolute;
+			left: 235px;
+			top: 412px;
+		}
+		#gg{
+			height: 35px;
+			width: 46px;
+			background-color: white;
+			border: solid;
+			position: absolute;
+			left: 335px;
+			top: 444px;
+
+		}
+		#gh{
+			height: 35px;
+			width: 46px;
+			background-color: green;
+			border: solid;
+			position: absolute;
+			left: 285px;
+			top: 444px;
+		}
+		#gi{
+			height: 33px;
+			width: 45px;
+			background-color: white;
+			border: solid;
+			position: absolute;
+			left: 235px;
+			top: 444px;
+		}
+		#gj{
+			height: 35px;
+			width: 46px;
+			background-color: white;
+			border: solid;
+			position: absolute;
+			left: 335px;
+			top: 476px;
+
+		}
+		#gk{
+			height: 35px;
+			width: 46px;
+			background-color: green;
+			border: solid;
+			position: absolute;
+			left: 285px;
+			top: 476px;
+		}
+		#gl{
+			height: 35px;
+			width: 45px;
+			background-color: white;
+			border: solid;
+			position: absolute;
+			left: 235px;
+			top: 476px;
+		}
+		
+		#gm{
+			height: 35px;
+			width: 46px;
+			background-color: yellow;
+			border: solid;
+			position: absolute;
+			left: 335px;
+			top: 508px;
+
+		}
+		#gn{
+			height: 35px;
+			width: 46px;
+			background-color: green;
+			border: solid;
+			position: absolute;
+			left: 285px;
+			top: 508px;
+		}
+		#go{
+			height: 35px;
+			width: 45px;
+			background-color: green;
+			border: solid;
+			position: absolute;
+			left: 235px;
+			top: 508px;
+		}
+		#gp{
+			height: 35px;
+			width: 46px;
+			background-color: white;
+			border: solid;
+			position: absolute;
+			left: 335px;
+			top: 545px;
+
+		}
+		#gq{
+			height: 35px;
+			width: 46px;
+			background-color: white;
+			border: solid;
+			position: absolute;
+			left: 285px;
+			top: 545px;
+		}
+		#gr{
+			height: 35px;
+			width: 45px;
+			background-color: white;
+			border: solid;
+			position: absolute;
+			left: 235px;
+			top: 545px;
+		}
+		
+	</style>
+	<title></title>
+</head>
+<body background="https://i.pinimg.com/originals/59/bd/04/59bd0412a0f6104aba65574b928c9846.png">
+	<div class="a">
+
+		<div id="aa">
+			<div id="aaa">
+				<div id="aab"></div>
+				<div id="aac"></div>
+				<div id="aad"></div>
+				<div id="aae"></div>
+			</div>
+		</div>
+
+
+		<div id="ab">
+			<div id="aaa">
+				<div id="aba"></div>
+				<div id="abb"></div>
+				<div id="abc"></div>
+				<div id="abd"></div>
+			</div>
+		</div>
+
+
+		<div id="ac">
+			<div id="aaa">
+				<div id="aca"></div>
+				<div id="acb"></div>
+				<div id="acc"></div>
+				<div id="acd"></div>
+			</div>
+		</div>
+
+
+		<div id="ad">
+			<div id="aaa">
+				<div id="ada"></div>
+				<div id="adb"></div>
+				<div id="adc"></div>
+				<div id="add"></div>
+			</div>
+		</div>
+
+
+		<div id="center">
+			<div id="ca"></div>
+		</div>
+
+
+		<div id="p"></div>
+		<div id="q"></div>
+		<div id="r"></div>
+		<div id="s"></div>
+		<div id="t"></div>
+		<div id="u"></div>
+		<div id="v"></div>
+		<div id="w"></div>
+		<div id="x"></div>
+		<div id="y"></div>
+		<div id="l"></div>
+		<div id="e"></div>
+		<div id="f"></div>
+		<div id="g"></div>
+		<div id="h"></div>
+		<div id="i"></div>
+		<div id="j"></div>
+		<div id="k"></div>
+
+		<div id="ra"></div>
+		<div id="rb"></div>
+		<div id="rc"></div>
+		<div id="rd"></div>
+		<div id="re"></div>
+		<div id="rf"></div>
+		<div id="rg"></div>
+		<div id="rh"></div>
+		<div id="ri"></div>
+		<div id="rj"></div>
+		<div id="rk"></div>
+		<div id="rl"></div>
+		<div id="rm"></div>
+		<div id="rn"></div>
+		<div id="ro"></div>
+		<div id="rp"></div>
+		<div id="rq"></div>
+		<div id="rr"></div>
+
+		<div id="ga"></div>
+		<div id="gb"></div>
+		<div id="gc"></div>
+		<div id="gd"></div>
+		<div id="ge"></div>
+		<div id="gf"></div>
+		<div id="gg"></div>
+		<div id="gh"></div>
+		<div id="gi"></div>
+		<div id="gj"></div>
+		<div id="gk"></div>
+		<div id="gl"></div>
+		<div id="gm"></div>
+		<div id="gn"></div>
+		<div id="go"></div>
+		<div id="gp"></div>
+		<div id="gq"></div>
+		<div id="gr"></div>
+
+		<div id="ya"></div>
+		<div id="yb"></div>
+		<div id="yc"></div>
+		<div id="yd"></div>
+		<div id="ye"></div>
+		<div id="yf"></div>
+		<div id="yg"></div>
+		<div id="yh"></div>
+		<div id="yi"></div>
+		<div id="yj"></div>
+		<div id="yk"></div>
+		<div id="yl"></div>
+		<div id="ym"></div>
+		<div id="yn"></div>
+		<div id="yo"></div>
+		<div id="yp"></div>
+		<div id="yq"></div>
+		<div id="yr"></div>
+
+		
+	</div>
+
+</body>
+</html>

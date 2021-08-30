@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="">
+		#name{
+			color: lightgreen;
+			text-align: center;
+			text-shadow: 5px;
+			font-family: cursive;
+			font-size: 40px;
+			text-shadow: 5px 5px 5px grey;
+			position: absolute;
+			top: 15px;
+			left: 700px;
+			z-index: 2;
+		}
+		#logo{
+			height: 100px;
+			width: 100px;
+			background-image: url("https://img.icons8.com/doodle/2x/green-earth.png");
+			background-repeat: no-repeat;
+			background-position: cover;
+			position: absolute;
+			top: 20px;
+			left: 15px;
+			z-index: 1;
+		}
+		#form{
+			z-index: 2;
+			position: absolute;
+			top: 250px;
+			left: 550px;
+		}
+		p{
+			text-align: center;
+			color: lavender;
+			font-size: 20px;
+
+		}
+		.aa{
+			color: #FFE4C4;
+			font-family: verdana;
+			font-size: 12px;
+				
+		}
+		#note{
+			color: seagreen;
+			font-family: verdana;
+			font-size: 20px;
+			z-index: 2;
+			position: absolute;
+			top: 100px;
+			left: 15px;
+		}
+		#sunrise{
+			height: 200px;
+			width: 300px;
+			text-align: center;
+			color: orangered;
+			font-family: verdana;
+			font-size: 20px; 
+			position: absolute;
+			top: 300px;
+			left: 100px;
+			z-index: 2;
+		}
+		#sunset{
+			height: 200px;
+			width: 300px;
+			text-align: center;
+			color: orangered;
+			font-family: verdana;
+			font-size: 20px;
+			position: absolute;
+			top: 290px;
+			left: 1100px;
+			z-index: 2;
+		}
+	</style>
+	<title></title>
+</head>
+<body>
+	<div>
+	<video autoplay="" width="100%" height="100%" muted="" loop="">
+		<source src="sky5.mp4" type="video/mp4">
+	</video>
+
+	<div id="name">The Earth</div>
+	<div id="logo"></div>
+
+	<p id="note"><strong>Welcome to our organization!!</strong></p>
+
+	<div id="sunrise">
+		<video autoplay="" width="100%" height="100%" muted="" loop="" >
+			<source src="sunrise.mp4" type="">
+		</video>
+
+	The Sunrise</div>
+
+	<div id="sunset">
+		<video autoplay="" width="100%" height="100%" muted="" loop="">
+			<source src="sunset1.mp4" type="">
+		</video><br>
+
+	The Sunset</div>
+
+
+		<div id="form">
+			<form align="center">
+		
+
+		<table border="1" align="center" width="400" height="200">
+			<tr>
+				<th colspan="2" bgcolor="#20B2AA">
+					<marquee direction="right" onmouseover="stop()"onmouseout="start()" scrollamount="7" behavior="alternate"><font color="#8B0000" face="Verdana">LogIn Page</font></marquee>
+			</th>
+		</tr>
+			<tr class="aa">
+				<th>Name</th>
+				<td align="left"><input type="text" placeholder="enter your name" required="" name=""></td>
+			</tr>
+				<tr class="aa">
+					<th>Password</th>
+					<td align="left"><input type="password" required="" name=""></td>
+				</tr>
+		<tr class="aa">
+			<th>Gender</th>
+			<td align="left">
+				Male<input type="radio" name="b">
+				Female<input type="radio" name="b">
+				Other<input type="radio" name="b">
+			</td>
+		</tr>
+		<tr class="aa">
+			<th>Country</th>
+			<td align="left">
+				<select name="Country">
+					<option value="" selected="selected" disabled="disabled">Select Your Country</option>
+					<option value="1">India</option>
+					<option value="2">USA</option>
+					<option value="3">UAE</option>
+
+				</select>
+			</td>
+		</tr>
+		<tr class="aa">
+			<td colspan="2" align="center">
+				<input type="submit" value="LogIn" name="">
+			</td>
+		</tr>
+	</table><br>
+	
+		<a href="C:\Users\Lenovo\Desktop\HTML Coding\RF.html"><font color="crimson" face="Helvetica">Sign Up</font></a>
+	</form>
+	<br><br><br><br><br><br><br><br><br><br><br>
+
+	<p><font face="Brush Script MT" size="7">Thank You</font></p>
+		
+	</div>
+		
+	</div>
+</div>
+
+</body>
+</html>

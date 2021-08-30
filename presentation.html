@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		body{
+			margin: 0px;
+			padding: 0px;
+			background-image: url("foodbg4.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		#pa{
+			font-size: 40px;
+			color: darkred;
+			font-family: Lucida Handwriting;
+			animation-name: bon;
+			animation-duration: 2s;
+			animation-delay: 1.5s;
+			animation-timing-function: ease-out;
+			animation-play-state: running;
+			animation-iteration-count: infinite;
+			animation-direction: alternate; 
+		}
+		@keyframes bon{
+			100%{transform: rotateX(360deg);}
+		}
+		#pb{
+			margin-top: 6em;
+			font-size: 30px;
+			color: wheat;
+			font-family: Brush Script MT;
+
+		}
+		.name{
+			width: 30vw;
+			height: 150px;
+			margin-left: 7em;
+			margin-top: 2em;
+		}
+		#a{
+			font-size: 30px;
+			color: coral;
+			font-family: cursive;
+		}
+		#b{
+			font-size: 100px;
+			color: lavender;
+			font-family: Papyrus;
+		}
+		.icon{
+			display: inline-block;
+			margin-left: 95vw;
+			
+		}
+		#b1{
+			height: 6vh;
+			width: 7vw;
+			margin-left: 27vw;
+			color: darkslategrey;
+			border: groove;
+			border-radius: 40%;
+			box-shadow: 3px 3px darkslategrey;
+			background-color: yellow;
+			opacity: 0.5;
+		}
+		#b2{
+			height: 6vh;
+			width: 7vw;
+			color: darkslategrey;
+			border: groove;
+			border-radius: 40%;
+			box-shadow: 3px 3px darkslategrey;
+			background-color: yellow;
+			opacity: 0.5;
+		}
+		
+
+	</style>
+	<title></title>
+</head>
+<body>
+	
+	<p id="pa">Bon Appétit</p>
+	<img class="icon" src="https://img.icons8.com/officexs/2x/ffffff/phone-ringing.png"><br>
+	<img class="icon" src="https://img.icons8.com/officexs/2x/fa314a/facebook.png"><br>
+	<img class="icon" src="https://img.icons8.com/officexs/2x/fa314a/instagram-new.png"><br>
+	<img class="icon" src="https://img.icons8.com/officexs/2x/fa314a/whatsapp.png"><br>
+
+
+	
+
+	<div class="name" id="a">Welcome to
+	<div id="b">Rajpoot's</div>
+</div><br>
+<a href="bookATable.html" target="_blank"><button id="b1">Book a table</button></a>
+<a href="menu.html" target="_blank"><button id="b2">Menu</button></a>
+<br>
+
+
+<p id="pb"><marquee direction="right" behavior="alternate" onmouseout="start()" onmouseover="stop()" scrollamount="7">Pull up a chair. Take a taste. Come join us. Life is so endlessly delicious...Be happy and healthy..!!</marquee></p>
+
+
+</body>
+</html>

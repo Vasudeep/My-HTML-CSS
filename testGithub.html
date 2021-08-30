@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		body{
+
+			background-image: url("githubbg.png");
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		
+		#para1{
+			color: white;
+			font-size: 90px;
+			font-family: Helvetica;
+			padding-top: 110px;
+			padding-left: 100px;
+			z-index: 1;
+
+		}
+		#para2{
+			color: lavender;
+			font-size: 30px;
+			font-family: helvetica;
+			padding-top: 0px;
+			padding-left: 100px;
+			z-index:1;
+		}
+		#top1{
+			color: lavender;
+			font-family: helvetica;
+			position: absolute;
+			top: 30px;
+			left: 180px;
+			background-color: black;
+			z-index: 1;
+		}
+		#top2{
+			color: lavender;
+			font-family: helvetica;
+			position: absolute;
+			top: 30px;
+			left: 300px;
+			z-index: 1;
+		}
+		#top3{
+			color: lavender;
+			font-family: helvetica;
+			position: absolute;
+			top: 30px;
+			left: 360px;
+			z-index: 1;
+		}
+		#top4{
+			color: lavender;
+			font-family: helvetica;
+			position: absolute;
+			top: 30px;
+			left: 450px;
+			z-index: 1;
+		}
+		#top5{
+			color: lavender;
+			font-family: helvetica;
+			position: absolute;
+			top: 30px;
+			left: 530px;
+			z-index: 1;
+		}
+		#top6{
+			color: lavender;
+			font-family: helvetica;
+			position: absolute;
+			top: 30px;
+			left: 630px;
+			z-index: 1;
+
+		}
+
+		#search{
+			height: 40px;
+			width: 220px;
+			font-size: 15px;
+			color: white;
+			text-indent: 20px;
+			border-radius: 10%;
+			background-color: whitesmoke;
+			position: absolute;
+			top: 20px;
+			left: 1000px;
+			z-index: 0;
+			opacity: 0.3;
+		}
+		#logo{
+			height: 60px;
+			width: 60px;
+			background-image: url("https://img.icons8.com/ios-glyphs/2x/ffffff/github.png");
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: absolute;
+			top: 30px;
+			left: 100px;
+			z-index: 1;
+		}
+		#globe{
+			height: 250px;
+			width: 250px;
+			background-image: url("https://media2.giphy.com/media/wgHY9nSrlTMt2/giphy.webp?cid=ecf05e47tzhm6x1ige6grk3379zsvt98kbonhwa64pckvx99&rid=giphy.webp&ct=g");
+			background-repeat: no-repeat;
+			background-position: cover;
+			border-radius:100%;
+			position: absolute;
+			top: 250px;
+			left: 1100px;
+			z-index: 2;
+		}
+		
+		#b1{
+			height: 40px;
+			width: 70px;
+			color: white;
+			text-align: center;
+			border-radius: 10%;
+			position: absolute;
+			background-color: black;
+			top: 20px;
+			left: 1260px;
+			z-index: 1
+
+		}
+		#b2{
+			height: 40px;
+			width: 70px;
+			color: white;
+			border-radius: 10%;
+			text-align: center;
+			background-color: black;
+			position: absolute;
+			top: 20px;
+			left: 1350px;
+			z-index: 1;
+
+		}
+		#b3{
+			height: 55px;
+			width: 230px;
+			font-size: 20px;
+			font-family: helvetica;
+			border-radius: 8%;
+			color: white;
+			background-color: mediumseagreen;
+			position: absolute;
+			top: 580px;
+			left: 460px;
+			z-index: 1;
+		}
+		#a{
+			height: 50px;
+			width: 330px;
+			color: grey;
+			font-size: 20px;
+			text-indent: 30px;
+			border-radius: 8%;
+			position: absolute;
+			top: 580px;
+			left: 110px;
+			z-index: 1;
+		}
+		#t1{
+			height: 10px;
+			width: 12px;
+			color: lavender;
+			background-color: black;
+			position: absolute;
+			top: 55px;
+			left: 265px;
+		}
+		#t2{
+			height: 10px;
+			width: 12px;
+			color: lavender;
+			background-color: black;
+			position: absolute;
+			top: 55px;
+			left: 458px;
+		}
+		#t3{
+			height: 10px;
+			width: 12px;
+			color: lavender;
+			background-color: black;
+			position: absolute;
+			top: 55px;
+			left: 635px;
+		}
+		#la{
+			height: 200px;
+			width: 300px;
+			color: lavender;
+			font-size: 20px;
+			font-family: verdana;
+			position: absolute;
+			left: 120px;
+			top: 720px;
+			z-index: 1;
+		}
+		#lb{
+			height: 200px;
+			width: 300px;
+			color: lavender;
+			font-size: 20px;
+			font-family: verdana;
+			position: absolute;
+			left: 320px;
+			top: 720px;
+			z-index: 1;
+		}
+		#lc{
+			height: 200px;
+			width: 300px;
+			color: lavender;
+			font-size: 20px;
+			font-family: verdana;
+			position: absolute;
+			left: 520px;
+			top: 720px;
+			z-index: 1;
+		}
+		#ld{
+			height: 200px;
+			width: 300px;
+			color: lavender;
+			font-size: 20px;
+			font-family: verdana;
+			position: absolute;
+			left: 720px;
+			top: 720px;
+			z-index: 1;
+		}
+
+	
+	</style>
+	<title></title>
+</head>
+<body class="body">
+	<div id="logo"></div>
+	
+	<div id="globe"></div>
+	
+
+		<input id="search" type="text" placeholder="Search For GitHub" name="" >
+		
+
+	<h5 id="top1">Why GitHub?</h5>
+	<h5 id="top2">Team</h5>
+	<h5 id="top3">Enterprise</h5>
+	<h5 id="top4">Explore</h5>
+	<h5 id="top5">Marketplace</h5>
+	<h5 id="top6">Pricing</h5>
+
+	
+		
+	<h1 id="para1"><strong>Where the world <br>builds software</strong></h1>
+	<p id="para2">Millions of developers and companies build, ship, and 
+		<br>maintain their software on GitHub- 
+	the largest and<br> most advanced development plateform in the world.</p>
+
+	<button id="b1">Sign In</button>
+	<button id="b2">Sign Up</button>
+
+
+		<input id="a" type="email" placeholder="Email address" name="">
+		<button id="b3"><strong>Sign Up for GitHub</strong></button>
+
+		<select id="t1" name="Why GitHub?">
+			<option value="" selected="selected" disabled="disabled"></option>
+		Why GitHub?</select>
+
+		<div id="la">65+ million<br><font color="lavender" size="0px" > Developers</font></div>
+
+		<div id="lb">3+ million<br><font color="lavender" size="0px" >Organizations</font></div>
+
+		<div id="lc">200+ million<br><font color="lavender" size="0px" >Repositories</font></div>
+
+		<div id="ld">72%<br><font color="lavender" size="0px" >Fortune 50</font></div>
+	
+
+</body>
+</html>

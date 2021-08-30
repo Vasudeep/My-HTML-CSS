@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		div{
+			width: 100vw;
+			height: 1000px;
+			position: relative;
+			z-index: -1;
+			background-color: rebeccapurple;
+			animation: vasudha 10s;
+
+		}
+		@keyframes vasudha{
+			20%{background: magenta; left: 0px; top: 0px;}
+			40%{background: darksalmon; left: 0px; top: 0px;}
+			60%{background: teal; left: 0px; top: 0px;}
+			80%{background: darksalmon; left: 0px; top: 0px;}
+			100%{background: darksalmon; left: 0px; top: 0px;}
+
+		}
+		#aa{
+			height: 200px;
+			width: 200px;
+			position: relative;
+			z-index: 1;
+			background-color: crimson;
+			animation: vasu 10s;
+		}
+		@keyframes vasu{
+			20%{background: blue; left: 0px; top: 200px;}
+			40%{background: darkviolet; left: 300px; top: 200px;}
+			60%{background: maroon; left: 200px; top: 200px;}
+			80%{background: lavender; left: 100px; top: 100px;}
+			100%{background: salmon; left: 0px; top: 0px;}
+		}
+	</style>
+	<title></title>
+</head>
+<body>
+	<div>
+		<div id="aa"></div>
+	</div>
+
+</body>
+</html>
